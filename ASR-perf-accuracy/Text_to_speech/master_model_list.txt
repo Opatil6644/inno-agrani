@@ -1,0 +1,2 @@
+#ai4bharat/indic-parler-tts
+#parler-tts/parler-tts-large-v1

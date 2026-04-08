@@ -1,0 +1,7 @@
+# Setup Overview: LLaDA Evaluation Setup
+The LLaDA Evaluation Setup introduces a paradigm shift in how we measure the intelligence of generative models by moving beyond the traditional autoregressive "left-to-right" prediction. Specifically designed for Large Language Diffusion Action (LLaDA), this framework evaluates the efficacy of Masked Diffusion Processes applied to massive-scale linguistic tasks.
+
+## Core Objectives
+- Non-Autoregressive Performance Mapping: Unlike standard LLMs that predict the next token, LLaDA generates text by refining noisy or masked sequences. This framework provides the specialized infrastructure required to measure how well a diffusion-based model converges on "correct" factual and logical outputs.
+- Parallel Semantic Evaluation: The setup benchmarks the model's unique ability to handle non-linear information processing. It quantifies whether a diffusion approach can maintain the same level of global context and coherence as traditional transformers when subjected to standard academic benchmarks.
+- Scalable Accuracy Verification: By utilizing specialized acceleration wrappers, the framework ensures that the intensive computational requirements of diffusion-based sampling do not compromise the integrity of the accuracy scores.

@@ -1,0 +1,5 @@
+datasets==4.4.2
+transformers==4.57.3
+mteb==2.7.12
+seqeval==1.2.2
+evaluate==0.4.6

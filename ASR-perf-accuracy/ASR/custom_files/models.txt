@@ -1,0 +1,4 @@
+#openai/whisper-large-v3
+#openai/whisper-small.en
+#nvidia/parakeet-tdt-0.6b-v3
+#nvidia/canary-qwen-2.5b

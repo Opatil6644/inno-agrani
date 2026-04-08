@@ -1,0 +1,8 @@
+{
+    "hf_token": "",
+    "coco_data_path": "",
+    "results_path": "",
+    "num_samples": "",
+    "batch_size": "",
+    "save_generated_images" : false
+}

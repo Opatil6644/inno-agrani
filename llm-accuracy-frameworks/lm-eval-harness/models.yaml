@@ -1,0 +1,51 @@
+models:
+  # Uncomment models you want to evaluate
+  
+  # - name: meta-llama/Llama-3.1-8B-Instruct
+  #   type: instruct
+  
+  # - name: Qwen/Qwen2.5-3B-Instruct
+  #   type: instruct
+  
+  # - name: Qwen/Qwen2.5-7B-Instruct
+  #   type: instruct
+
+  # - name: Qwen/Qwen2.5-7B
+  #   type: non-instruct
+
+  
+  # - name: meta-llama/Meta-Llama-3-8B
+  #   type: non-instruct
+
+  # - name: meta-llama/Llama-3.2-3B-Instruct
+  #   type: instruct
+
+  # - name: Qwen/Qwen2.5-14B-Instruct
+  #   type: instruct
+
+
+  # - name: microsoft/Phi-3-mini-4k-instruct
+  #   type: instruct
+
+  # - name: microsoft/phi-4
+  #   type: non-instruct
+
+  # - name: meta-llama/Meta-Llama-3-8B-Instruct
+  #   type: instruct
+
+  # - name: mistralai/Mistral-7B-Instruct-v0.2
+  #   type: non-instruct
+
+  # - name: HuggingFaceH4/zephyr-7b-beta
+  #   type: instruct
+
+  # - name: deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
+  #   type: non-instruct
+
+  # - name: Qwen/Qwen2.5-Coder-7B-Instruct
+  #   type: instruct
+
+
+
+
+

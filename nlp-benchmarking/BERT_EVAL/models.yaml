@@ -1,0 +1,117 @@
+models:
+  # Uncomment models you want to evaluate
+  
+  #  - name: deepset/bert-base-uncased-squad2
+  #    type: Question-Answering
+  
+  #  - name: google-bert/bert-large-uncased-whole-word-masking-finetuned-squad
+  #    type: Question-Answering
+  
+  #  - name: deepset/bert-large-uncased-whole-word-masking-squad2
+  #    type: Question-Answering
+
+  #  - name: csarron/bert-base-uncased-squad-v1
+  #    type: Question-Answering
+  
+  #  - name: google-bert/bert-large-cased-whole-word-masking-finetuned-squad
+  #    type: Question-Answering
+
+  #  - name: deepset/bert-medium-squad2-distilled
+  #    type: Question-Answering
+
+  #  - name: mrm8488/bert-medium-finetuned-squadv2
+  #    type: Question-Answering
+
+  #  - name: phiyodr/bert-large-finetuned-squad2
+  #    type: Question-Answering
+
+  #  - name: mrm8488/bert-tiny-5-finetuned-squadv2
+  #    type: Question-Answering
+
+  #  - name: mrm8488/bert-small-finetuned-squadv2
+  #    type: Question-Answering
+
+  #  - name: MattBoraske/BERT-question-answering-SQuAD
+  #    type: Question-Answering
+
+  #  - name: deepset/bert-base-cased-squad2
+  #    type: Question-Answering
+
+  #  - name: deepset/roberta-base-squad2
+  #    type: Question-Answering
+
+  #  - name: deepset/roberta-base-squad2-distilled
+  #    type: Question-Answering
+
+  #  - name: google-bert/bert-large-cased-whole-word-masking
+  #    type: Fill-mask
+
+  #  - name: google-bert/bert-large-uncased-whole-word-masking
+  #    type: Fill-mask
+
+  #  - name: google-bert/bert-large-cased
+  #    type: Fill-mask
+
+  #  - name: google-bert/bert-large-uncased
+  #    type: Fill-mask
+
+  #  - name: google-bert/bert-base-cased
+  #    type: Fill-mask
+
+  #  - name: google-bert/bert-base-multilingual-cased
+  #    type: Fill-mask
+
+  #  - name: google-bert/bert-base-multilingual-uncased
+  #    type: Fill-mask
+
+  #  - name: google-bert/bert-base-uncased
+  #    type: Fill-mask
+
+  #  - name: FacebookAI/xlm-roberta-large
+  #    type: Fill-mask
+
+  #  - name: FacebookAI/xlm-roberta-base
+  #    type: Fill-mask
+
+  #  - name: albert/albert-base-v1
+  #    type: Fill-mask
+
+  #  - name: FacebookAI/xlm-roberta-large-finetuned-conll03-english
+  #    type: Token-Classification
+
+  #  - name: dbmdz/bert-large-cased-finetuned-conll03-english
+  #    type: Token-Classification
+
+  #  - name: elastic/distilbert-base-cased-finetuned-conll03-english
+  #    type: Token-Classification
+
+  #  - name: elastic/distilbert-base-uncased-finetuned-conll03-english
+  #    type: Token-Classification
+
+  #  - name: Gladiator/roberta-large_ner_conll2003
+  #    type: Token-Classification
+
+  #  - name: philschmid/distilroberta-base-ner-conll2003
+  #    type: Token-Classification
+
+  #  - name: swtb/XLM-RoBERTa-Large-Conll2003-English-NER-Finetune
+  #    type: Token-Classification
+
+  #  - name: IreNkweke/bert-finetuned-ner-conll2003
+  #    type: Token-Classification
+
+  #  - name: ICT2214Team7/RoBERTa_conll_epoch_8
+  #    type: Token-Classification
+
+  #  - name: Jorgeutd/albert-base-v2-finetuned-ner
+  #    type: Token-Classification
+
+  #  - name: Gladiator/albert-large-v2_ner_conll2003
+  #    type: Token-Classification
+
+
+
+
+
+
+
