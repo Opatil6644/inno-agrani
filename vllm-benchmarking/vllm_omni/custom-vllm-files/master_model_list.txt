@@ -1,0 +1,8 @@
+#helios
+#image_to_image
+#image_to_video
+#text_to_image
+#text_to_video
+#text_to_audio
+#fishaudio
+#hunyuanImage3.0

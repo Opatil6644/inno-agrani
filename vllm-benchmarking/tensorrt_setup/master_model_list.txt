@@ -1,0 +1,7 @@
+#meta-llama/Llama-3.1-8B-Instruct
+#Qwen/Qwen2.5-3B-Instruct
+#mistralai/Mistral-7B-Instruct-v0.2
+#ibm-research/PowerMoE-3b
+#nvidia/NVIDIA-Nemotron-Nano-9B-v2
+#openai/gpt-oss-20b
+#HuggingFaceH4/zephyr-7b-beta

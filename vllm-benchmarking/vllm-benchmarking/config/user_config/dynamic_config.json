@@ -1,0 +1,6 @@
+{ 
+  "huggingface_token":"",
+  "enforce_eager": false,
+  "VLLM_ATTENTION_BACKEND": "FLASH_ATTN",
+  "VLLM_COMPILATION_MODE": ""
+}
