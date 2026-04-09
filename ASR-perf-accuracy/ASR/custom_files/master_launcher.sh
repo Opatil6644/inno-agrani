@@ -100,13 +100,13 @@ echo -e "\n\033[1;32m====================================================\033[0m
 echo -e "\033[1;32m RUNNING GLOBAL AGGREGATION\033[0m"
 echo -e "\033[1;32m====================================================\033[0m"
 
-# Call the centralized post-processing script
-if [[ -d "$ROOT_DIR/post_processing_scripts" ]]; then
-    python "$ROOT_DIR/post_processing_scripts/nvjet_aggregate.py" \
-        "$RESULTS_DIR" \
-        "$RESULTS_DIR/final_leaderboard_summary.xlsx"
-else
-    echo " Warning: post_processing_scripts folder not found."
-fi
+# # Call the centralized post-processing script
+# if [[ -d "$ROOT_DIR/post_processing_scripts" ]]; then
+#     python "$ROOT_DIR/post_processing_scripts/nvjet_aggregate.py" \
+#         "$RESULTS_DIR" \
+#         "$RESULTS_DIR/final_leaderboard_summary.xlsx"
+# else
+#     echo " Warning: post_processing_scripts folder not found."
+# fi
 
 echo -e "\n Master Run Complete. Results are in $RESULTS_DIR"
