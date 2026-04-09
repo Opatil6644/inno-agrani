@@ -69,4 +69,3 @@ Results/
 |__ mnk_aggregated.csv
 |__ nvjet_aggregated.xlsx
 |__ open_close_source_kernels_aggregate.xlsx
-|__ final_leaderboard_summary.xlsx
