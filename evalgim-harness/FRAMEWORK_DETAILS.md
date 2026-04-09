@@ -36,8 +36,42 @@ The setup evaluates models based on two distinct categories of metrics:
 ## 5. Directory Structure & Result Aggregation
 The pipeline is designed for high-scale comparison. While individual model details are stored in subfolders, the root Results/ directory generates Aggregated Files:
 - results.csv: A master sheet of all model scores.
+  
 - latency_throughput_summary.csv: A comparative look at performance across all tested models.
-- nvjet_aggregated.xlsx: Consolidated hardware performance metrics.
+  
+- cublas_func_calls.csv
+Contains logs of all cuBLAS API function calls made during execution.
+
+- kernel_summary.csv
+High-level summary of all GPU kernels executed.
+
+- mnk_details.csv
+Raw data of matrix multiplication workloads in terms of:
+M, N, K dimensions
+
+- mnk_details_sorted.csv
+Same as mnk_details.csv but:
+Sorted (usually by frequency or compute cost)
+
+- mnk_aggregated.csv
+Aggregated version of MNK data:
+Groups identical (M, N, K) combinations
+
+- nvjet_details.xlsx
+Detailed report generated using NVIDIA profiling tools.
+Contains:
+Kernel-level breakdown, shapes etc
+
+- nvjet_aggregated.xlsx
+Aggregated version of NVJET data:
+
+- open_closed_source_kernels.xlsx
+Classification of kernels into:
+Open-source kernels 
+Closed-source kernels
+
+- open_close_source_kernels_aggregate.xlsx
+Aggregated summary of above classification:
 
 ## 6. Dependencies & Troubleshooting
 - Tooling: Ensure jq is installed; the scripts use it to parse JSON configurations dynamically.
