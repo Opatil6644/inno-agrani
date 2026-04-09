@@ -26,22 +26,14 @@ M, N, K dimensions
 Same as mnk_details.csv but:
 Sorted (usually by frequency or compute cost)
 
-- mnk_aggregated.csv
-Aggregated version of MNK data:
-Groups identical (M, N, K) combinations
-
 - nvjet_details.xlsx
 Detailed report generated using NVIDIA profiling tools.
 Contains:
 Kernel-level breakdown, shapes etc
-
-- nvjet_aggregated.xlsx
-Aggregated version of NVJET data
 
 - open_closed_source_kernels.xlsx
 Classification of kernels into:
 Open-source kernels 
 Closed-source kernels
 
-- open_close_source_kernels_aggregate.xlsx
-Aggregated summary of above classification
+
