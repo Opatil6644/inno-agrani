@@ -21,7 +21,7 @@ The pipeline uses a "Selective Execution" logic via text-file registries:
 The results are structured to provide both "Micro" (per model/dataset) and "Macro" (leaderboard) views.
 
 ### The Macro View (Root Results)
-- final_leaderboard_summary.xlsx: The crown jewel of this repo. It aggregates the word error rates (WER/Accuracy) and performance metrics into a single comparative sheet.
+- final_leaderboard_summary.xlsx: It aggregates the word error rates (WER/Accuracy) and performance metrics into a single comparative sheet.
 - mnk_aggregated.csv: Compares the computational "shapes" of different ASR models to identify which ones are most mathematically efficient.
 - The Micro View (Profile_Details/Dataset_name/)
 For every model/dataset combination, the system captures:
