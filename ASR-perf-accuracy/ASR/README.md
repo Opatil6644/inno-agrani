@@ -1,5 +1,5 @@
 # ASR Master Leaderboard Runner
-This repository provides an automated pipeline to benchmark multiple ASR models against various datasets. It handles directory routing, model-specific execution, and centralized post-processing to generate a final leaderboard.
+This repository provides an automated pipeline to benchmark multiple ASR models against various datasets. It handles directory routing, model-specific execution, and centralized post-processing on nsys report and finally generate final leaderboard.
 
 ## Prerequisites
 Ensure your environment meets the following hardware and software requirements:
