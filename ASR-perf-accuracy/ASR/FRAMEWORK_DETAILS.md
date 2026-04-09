@@ -18,13 +18,37 @@ The pipeline uses a "Selective Execution" logic via text-file registries:
 - The Runner: evaluate.sh iterates through the enabled models in the list, performs the ASR transcription, and hooks the process into NVIDIA Nsight for hardware telemetry.
 
 ## 5. Result Analysis & Hierarchy
-The results are structured to provide both "Micro" (per model/dataset) and "Macro" (leaderboard) views.
+- cublas_func_calls.csv
+Contains logs of all cuBLAS API function calls made during execution.
 
-### The Macro View (Root Results)
-- final_leaderboard_summary.xlsx: It aggregates the word error rates (WER/Accuracy) and performance metrics into a single comparative sheet.
-- mnk_aggregated.csv: Compares the computational "shapes" of different ASR models to identify which ones are most mathematically efficient.
-- The Micro View (Profile_Details/Dataset_name/)
-For every model/dataset combination, the system captures:
-- Kernel Summaries: identifies time spent in specific CUDA kernels.
-- cuBLAS Calls: Monitors the linear algebra backbone of the Transformer layers.
-- NVJet Details: High-resolution telemetry for power and thermal performance during transcription.
+- kernel_summary.csv
+High-level summary of all GPU kernels executed.
+
+- mnk_details.csv
+Raw data of matrix multiplication workloads in terms of:
+M, N, K dimensions
+
+- mnk_details_sorted.csv
+Same as mnk_details.csv but:
+Sorted (usually by frequency or compute cost)
+
+- mnk_aggregated.csv
+Aggregated version of MNK data:
+Groups identical (M, N, K) combinations
+
+- nvjet_details.xlsx
+Detailed report generated using NVIDIA profiling tools.
+Contains:
+Kernel-level breakdown, shapes etc
+
+- nvjet_aggregated.xlsx
+Aggregated version of NVJET data:
+
+- open_closed_source_kernels.xlsx
+Classification of kernels into:
+Open-source kernels 
+Closed-source kernels
+
+- open_close_source_kernels_aggregate.xlsx
+Aggregated summary of above classification:
+
