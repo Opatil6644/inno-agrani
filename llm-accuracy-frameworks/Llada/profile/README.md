@@ -55,6 +55,4 @@ Results/
 |   ├── mnk_details.csv
 |   ├── nvjet_details.xlsx
 |   ├── open_closed_source_kernels.xlsx
-|__ mnk_aggregated.csv
-|__ nvjet_aggregated.xlsx
-|__ open_close_source_kernels_aggregate.xlsx
+
