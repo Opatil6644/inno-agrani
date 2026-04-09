@@ -8,6 +8,36 @@ The AI Model Performance Profiling & TTS Suite is an automated framework designe
 - Matrix Math Profiling: Extracts MNK dimensions (Matrix Multiply-Accumulate operations) to analyze Tensor Core utilization.
 
 ## Performance Profiling Outputs
-- Unlike standard evaluation scripts, this setup provides deep-dive hardware profiling. All results are stored in the Profile_Details/ subdirectory for each model:
-- Kernel Summaries: CSV files detail which GPU kernels (Open vs. Closed source) were utilized most frequently.
-- MNK Details: Provides matrix multiplication dimensions (M, N, K) which are critical for optimizing tensor core utilization.
+- cublas_func_calls.csv
+Contains logs of all cuBLAS API function calls made during execution.
+
+- kernel_summary.csv
+High-level summary of all GPU kernels executed.
+
+- mnk_details.csv
+Raw data of matrix multiplication workloads in terms of:
+M, N, K dimensions
+
+- mnk_details_sorted.csv
+Same as mnk_details.csv but:
+Sorted (usually by frequency or compute cost)
+
+- mnk_aggregated.csv
+Aggregated version of MNK data:
+Groups identical (M, N, K) combinations
+
+- nvjet_details.xlsx
+Detailed report generated using NVIDIA profiling tools.
+Contains:
+Kernel-level breakdown, shapes etc
+
+- nvjet_aggregated.xlsx
+Aggregated version of NVJET data:
+
+- open_closed_source_kernels.xlsx
+Classification of kernels into:
+Open-source kernels 
+Closed-source kernels
+
+- open_close_source_kernels_aggregate.xlsx
+Aggregated summary of above classification:
