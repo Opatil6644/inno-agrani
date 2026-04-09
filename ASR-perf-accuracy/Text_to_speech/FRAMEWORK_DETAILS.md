@@ -1,6 +1,6 @@
 # Setup Overview: TTS Performance & Profiling Pipeline
 ## 1. Executive Summary
-The AI Model Performance Profiling & TTS Suite is an automated framework designed to benchmark Text-to-Speech models. Unlike standard accuracy tests, this suite focuses on hardware-level profiling, capturing how TTS models interact with GPU kernels, memory, and CUDA libraries (cuBLAS) during the audio synthesis process.
+The AI Model Performance Profiling & TTS Suite is an automated framework designed to benchmark Text-to-Speech models. This suite focuses on hardware-level profiling, capturing how TTS models interact with GPU kernels, memory, and CUDA libraries (cuBLAS) during the audio synthesis process.
 
 ## 2. Core Capabilities
 - NVIDIA Nsight Integration: Leverages Nsight Systems to hook into the execution timeline of the model.
