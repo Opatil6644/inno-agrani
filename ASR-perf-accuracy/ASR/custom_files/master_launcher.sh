@@ -95,10 +95,10 @@ for MODEL_ID in "${MODELS[@]}"; do
     fi
 done
 
-# --- 5. POST-PROCESSING ---
-echo -e "\n\033[1;32m====================================================\033[0m"
-echo -e "\033[1;32m RUNNING GLOBAL AGGREGATION\033[0m"
-echo -e "\033[1;32m====================================================\033[0m"
+# # --- 5. POST-PROCESSING ---
+# echo -e "\n\033[1;32m====================================================\033[0m"
+# echo -e "\033[1;32m RUNNING GLOBAL AGGREGATION\033[0m"
+# echo -e "\033[1;32m====================================================\033[0m"
 
 # # Call the centralized post-processing script
 # if [[ -d "$ROOT_DIR/post_processing_scripts" ]]; then
