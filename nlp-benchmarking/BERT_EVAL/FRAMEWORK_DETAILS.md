@@ -16,5 +16,4 @@ The framework rigorously tests the "Encoder" functionality through several theor
 The pipeline is pre-configured to handle several benchmark datasets, each targeting a specific natural language understanding task:
 - Question Answering (SQuAD v1.1 / v2.0): Evaluates the model's ability to extract answers from a given context. SQuAD v2.0 includes unanswerable questions to test the model's ability to refrain from answering.
 - Masked Language Modeling (Wikitext-2): Measures Perplexity by masking tokens in the wikitext-2-raw-v1 validation set.
-- Text Classification (GLUE/SST2): Benchmarks binary sentiment analysis using the Stanford Sentiment Treebank.
 - Token Classification (CoNLL-2003): Performs Named Entity Recognition (NER) to identify persons, organizations, and locations.
