@@ -3,7 +3,7 @@
 The ASR Master Leaderboard Runner is an end-to-end automation pipeline designed to evaluate ASR models (like Whisper, Nvidia-Canary, etc.) against standardized datasets. It orchestrates the entire lifecycle: from environment setup and model weight retrieval to GPU kernel profiling and the generation of a accuracy leaderboard.
 
 ## 2. Key Differentiation
-Unlike the TTS or EvalGIM suites, this repository is optimized for cross-dataset validation. It allows developers to see how a model's hardware efficiency (profiling) changes when processing different acoustic environments or languages provided by various datasets.
+This repository is optimized for cross-dataset validation. It allows developers to see how a model's hardware efficiency (profiling) changes when processing different acoustic environments or languages provided by various datasets.
 
 ## 3. Workflow & Orchestration
 The pipeline uses a "Selective Execution" logic via text-file registries:
