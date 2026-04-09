@@ -16,5 +16,3 @@ The framework categorizes intelligence into several critical "stress tests":
 The framework’s value lies in its data transformation pipeline. It doesn't merely capture raw model responses; it processes them through two distinct lenses:
 - Raw vs. Normalized Analysis: By providing both raw and normalized results, the framework accounts for variances in task difficulty and "guess-rate" (probability of choosing a correct answer by chance), ensuring the final metrics reflect genuine comprehension.
 - Result Aggregation: The system synthesizes thousands of individual data points into high-level comparative reports, enabling developers to see at a glance how a model ranks against its peers in a specific leaderboard category.
-
-Key Achievement: This setup serves as a "Truth Engine" for LLM development, providing the empirical data necessary to validate whether architectural changes or new training datasets have truly improved a model's intelligence or simply its confidence.
