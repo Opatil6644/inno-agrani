@@ -146,9 +146,6 @@ NVJET_LIST="post_processing_scripts/nvjet_list.py"
 MNK_SORT="post_processing_scripts/mnk_sort.py"
 
 
-MESSAGE="Checking image path"
-print_status_message "$MESSAGE"
-
 for MODEL_NAME in "${MODEL_NAMES_ARRAY[@]}"; do
   # MODEL_NAME usually contains quotes → strip them
   MODEL_NAME=$(echo $MODEL_NAME | tr -d '"')
