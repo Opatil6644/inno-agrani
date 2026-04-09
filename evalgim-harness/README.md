@@ -1,5 +1,5 @@
 # Text-to-Image Automation: Evaluation(evalGIM) & Profiling
-This repository provides an automated pipeline for profiling and evaluating Text-to-Image models using EvalGIM library. This setup will run evaluations with the full COCO validation dataset when computing marginal metrics like FID and precision, recall, coverage, and diversity.
+This repository provides an automated pipeline for profiling, performance benchmarking and evaluating Text-to-Image models using EvalGIM library. This setup will run evaluations with the full COCO validation dataset when computing marginal metrics like FID and precision, recall, coverage, and diversity.
 
 ## Prerequisites
 Ensure your environment meets the following hardware and software requirements:
